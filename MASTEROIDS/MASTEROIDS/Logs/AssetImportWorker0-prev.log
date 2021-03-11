@@ -15,11 +15,11 @@ E:/GITHUB/1-Main Games/MASTEROIDS/mastreroids/MASTEROIDS/MASTEROIDS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49880
+56361
 Successfully changed project path to: E:/GITHUB/1-Main Games/MASTEROIDS/mastreroids/MASTEROIDS/MASTEROIDS
 E:/GITHUB/1-Main Games/MASTEROIDS/mastreroids/MASTEROIDS/MASTEROIDS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 224.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 150.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
@@ -36,19 +36,396 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003518 seconds.
+Registered in 0.002692 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 126.94 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 91.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.258 seconds
+- Completed reload, in  2.773 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002584 seconds.
+Registered in 0.004145 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001B49307C040 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D925020 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46DA1A170 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B491D2C670 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D93D640 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46CF5FDE0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46CF5FDE0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D946050 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B491B7BE30 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B4930A3F10 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B491D2C670 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B491D2C670 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46DA19170 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D5EF640 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B49230A010 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46DA1AB70 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B4924C2020 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B491BE2C40 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.952 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2666 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 202.4 MB.
+System memory in use after: 202.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3135.
+Total: 4.539000 ms (FindLiveObjects: 0.675200 ms CreateObjectMapping: 0.257300 ms MarkObjects: 3.443200 ms  DeleteObjects: 0.159700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/PREFAB/lib/uploads_files_2850329_spaceship.obj
+  artifactKey: Guid(cf2ceec08c6d1d848a5c991c55cba23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/uploads_files_2850329_spaceship.obj using Guid(cf2ceec08c6d1d848a5c991c55cba23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feece2469e616caa7caabc49a6326cae') in 1.275552 seconds
+  Import took 1.300424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024067 seconds.
+  path: Assets/PREFAB/lib/UFO_2.fbx
+  artifactKey: Guid(d458b89fec3cd2f478f4856894bed9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/UFO_2.fbx using Guid(d458b89fec3cd2f478f4856894bed9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a476feb2072f4d04652256c5d5b850c0') in 0.136733 seconds
+  Import took 0.147180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/PREFAB/lib/uploads_files_1933390_Deliverer.fbx
+  artifactKey: Guid(57427c1f4cd7e6b48906d179edbef55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/uploads_files_1933390_Deliverer.fbx using Guid(57427c1f4cd7e6b48906d179edbef55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293bcaeaad76ac65b2e3c85c0229bcc3') in 0.165903 seconds
+  Import took 0.191197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/PREFAB/lib/uploads_files_80743_aero4.obj
+  artifactKey: Guid(ecb13c542328b444eb97d31bc473de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/uploads_files_80743_aero4.obj using Guid(ecb13c542328b444eb97d31bc473de73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d77653491abe25588b1f203b14fba1') in 1.081428 seconds
+  Import took 1.092419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.756966 seconds.
+  path: Assets/PREFAB/lib/1q 1.FBX
+  artifactKey: Guid(ea9f59e68b47b8a449e3e97eae793f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/1q 1.FBX using Guid(ea9f59e68b47b8a449e3e97eae793f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9575dcf7fb35f0c8306e124383cd72') in 0.236873 seconds
+  Import took 0.276289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.946667 seconds.
+  path: Assets/PREFAB/lib/1q.FBX
+  artifactKey: Guid(23ba09111d3001a46b92dfdde20eea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/1q.FBX using Guid(23ba09111d3001a46b92dfdde20eea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb31068ddf43cd5f77ade47f5969686') in 0.217266 seconds
+  Import took 0.245147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.970393 seconds.
+  path: Assets/PREFAB/lib
+  artifactKey: Guid(ae2af012d46664e47b8858906ee923fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib using Guid(ae2af012d46664e47b8858906ee923fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a910b28ca2759450d1e5b1b7da021a13') in 0.002170 seconds
+  Import took 0.040257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.912198 seconds.
+  path: Assets/PREFAB/lib/sssssssssssssssss
+  artifactKey: Guid(bde8a99c82765284b8edf8ceb7271329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/sssssssssssssssss using Guid(bde8a99c82765284b8edf8ceb7271329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372d94363d5d03252c8fddd841e4b5f') in 0.002622 seconds
+  Import took 0.011166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.588641 seconds.
+  path: Assets/PREFAB/lib/New folder
+  artifactKey: Guid(2ec61f380f693ee40875bbf67a13c570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/New folder using Guid(2ec61f380f693ee40875bbf67a13c570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66afd220e1a08aeb2e287ea6f1b6501c') in 0.002606 seconds
+  Import took 0.024497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.414118 seconds.
+  path: Assets/PREFAB/lib/New folder/XF-01
+  artifactKey: Guid(0029c3baa074a3f4a972b519980f4a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/New folder/XF-01 using Guid(0029c3baa074a3f4a972b519980f4a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f9a648235942969774cb9c451d0961') in 0.003337 seconds
+  Import took 0.034896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.138963 seconds.
+  path: Assets/PREFAB/lib/New Folder 1
+  artifactKey: Guid(24a9ccb010ae3be489880c14ca13e9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/New Folder 1 using Guid(24a9ccb010ae3be489880c14ca13e9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7221448a2a45b402b58c6343f55ca1') in 0.002352 seconds
+  Import took 0.011890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.910305 seconds.
+  path: Assets/PREFAB/lib/SF_Fighter
+  artifactKey: Guid(e2623f5c09bd41a409730ab8121df047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SF_Fighter using Guid(e2623f5c09bd41a409730ab8121df047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dc0962c6b2faf3d43f759b4e0c68e5') in 0.006038 seconds
+  Import took 0.016902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003283 seconds.
+  path: Assets/PREFAB/lib/SF_Fighter
+  artifactKey: Guid(e2623f5c09bd41a409730ab8121df047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SF_Fighter using Guid(e2623f5c09bd41a409730ab8121df047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dc0962c6b2faf3d43f759b4e0c68e5') in 0.001578 seconds
+  Import took 0.010822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.788423 seconds.
+  path: Assets/PREFAB/lib/SF_Fighter/SciFi_Fighter.FBX
+  artifactKey: Guid(1c715b96ddf77164d8e7eb8ac82d717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SF_Fighter/SciFi_Fighter.FBX using Guid(1c715b96ddf77164d8e7eb8ac82d717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaae8bebf820f0ce4e22554f43e8f07') in 0.289642 seconds
+  Import took 0.298372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.250372 seconds.
+  path: Assets/PREFAB/lib/SF_Fighter/SciFi_Fighter.obj
+  artifactKey: Guid(fb17889e0d4de6e458595eacb06cb691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SF_Fighter/SciFi_Fighter.obj using Guid(fb17889e0d4de6e458595eacb06cb691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a733b49dc26d2b1d3afa6821f4cecfe') in 0.126719 seconds
+  Import took 0.136977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.406609 seconds.
+  path: Assets/PREFAB/lib/SciFi_Fighter.FBX
+  artifactKey: Guid(f4b56cfe581b99c419437293894a6698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SciFi_Fighter.FBX using Guid(f4b56cfe581b99c419437293894a6698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e00a452861ce32cdd42d2ed1ed2c862') in 0.323251 seconds
+  Import took 0.332365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.294147 seconds.
+  path: Assets/PREFAB/lib/SciFi_Fighter.obj
+  artifactKey: Guid(9f54b86cb1e0c6049a8c8f775ed2b4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SciFi_Fighter.obj using Guid(9f54b86cb1e0c6049a8c8f775ed2b4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e2fba5448bda698717f85667bc2f3f') in 0.052550 seconds
+  Import took 0.065613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002694 seconds.
+  path: Assets/PREFAB/lib/SciFi_Fighter.obj
+  artifactKey: Guid(9f54b86cb1e0c6049a8c8f775ed2b4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SciFi_Fighter.obj using Guid(9f54b86cb1e0c6049a8c8f775ed2b4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e2fba5448bda698717f85667bc2f3f') in 0.104097 seconds
+  Import took 0.115034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.335292 seconds.
+  path: Assets/PREFAB/lib/FA59AMako.FBX
+  artifactKey: Guid(0cfd81df59f93ed4d9b60ee5cd4168ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/FA59AMako.FBX using Guid(0cfd81df59f93ed4d9b60ee5cd4168ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c32d4ab5ef9a985730b1ecef81b4ba') in 0.033630 seconds
+  Import took 0.043439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.566807 seconds.
+  path: Assets/PREFAB/lib/SciFi_Fighter-MK6
+  artifactKey: Guid(b147386b67c86e24688f4532fb5a5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SciFi_Fighter-MK6 using Guid(b147386b67c86e24688f4532fb5a5e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d16a6eead6754a87ea3826f303f49b4') in 0.002617 seconds
+  Import took 0.011453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 293.955278 seconds.
+  path: Assets/PREFAB/lib/SciFi_Fighter-MK6/z.FBX
+  artifactKey: Guid(110c21ea5cf40fe4dabaec796039d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SciFi_Fighter-MK6/z.FBX using Guid(110c21ea5cf40fe4dabaec796039d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde6939d23af20acf486171235323cd9') in 0.055458 seconds
+  Import took 0.062994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021801 seconds.
+  path: Assets/PREFAB/lib/SciFi_Fighter-MK6/z.FBX
+  artifactKey: Guid(110c21ea5cf40fe4dabaec796039d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SciFi_Fighter-MK6/z.FBX using Guid(110c21ea5cf40fe4dabaec796039d170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde6939d23af20acf486171235323cd9') in 0.081246 seconds
+  Import took 0.089153 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002191 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001B46D64F5B0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B492E56010 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B494E11DC0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D13C010 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B49496F010 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D62AA30 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D9C5010 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B444B290D0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D9C5010 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B494F268D0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B492E5E020 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D9AC480 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B494E12CC0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B49246C040 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B4949F8010 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B494E138C0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B4924C2020 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D0C2E50 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.369 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2536 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.0 MB.
+System memory in use after: 198.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3217.
+Total: 3.598200 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.176000 ms MarkObjects: 3.032900 ms  DeleteObjects: 0.031400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 19.553137 seconds.
+  path: Assets/PREFAB/lib/SciFi_Fighter-MK6/Materials
+  artifactKey: Guid(de5b64a2c0169864ebad2753d270aea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SciFi_Fighter-MK6/Materials using Guid(de5b64a2c0169864ebad2753d270aea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf96b32b410ba2dfb93fed99a006da9') in 0.009234 seconds
+  Import took 0.028646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.533690 seconds.
+  path: Assets/PREFAB/lib/SciFi_Fighter-MK6/SciFi_Fighter-MK6-diffuse.jpg
+  artifactKey: Guid(542e1ae384780804cb0fbd5aff85bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PREFAB/lib/SciFi_Fighter-MK6/SciFi_Fighter-MK6-diffuse.jpg using Guid(542e1ae384780804cb0fbd5aff85bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dd3f064c7384f7c2ebd9e030ca106f') in 0.223618 seconds
+  Import took 0.231554 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002021 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001B4922F4500 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D23E030 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B494E10BC0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B4951ED120 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B491F00010 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B49224D020 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B4950AE3D0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B495BF3030 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B495149040 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B49556FFF0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B491D2C670 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D179FE0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B494E123C0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D20AC60 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B4F930B040 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B494E112C0 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B4924C2020 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001B46D0C2E50 doesn't match image E:\GITHUB\1-Main Games\MASTEROIDS\mastreroids\MASTEROIDS\MASTEROIDS\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.239 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2536 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.1 MB.
+System memory in use after: 198.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 3.370500 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.306800 ms MarkObjects: 2.600700 ms  DeleteObjects: 0.033600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
