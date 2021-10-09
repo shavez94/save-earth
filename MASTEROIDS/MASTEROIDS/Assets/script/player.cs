@@ -25,7 +25,7 @@ public class player : MonoBehaviour
     [SerializeField]
     private float shootinginterval;
 
-
+   
 
     public void Start()
     {
@@ -80,7 +80,7 @@ public class player : MonoBehaviour
         {
             Vector3 targetDir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
             float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.AngleAxis(angle - 90, Vector3.forward);
+            transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.AngleAxis(angle - 90, Vector3.forward),.3f);
 
         }
     }
