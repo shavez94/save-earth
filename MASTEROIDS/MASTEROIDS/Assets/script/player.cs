@@ -12,6 +12,7 @@ public class player : MonoBehaviour
     public Transform spawnpoints;
 
     public GameObject[] bulletprefab;
+    public GameObject[] playerprefab;
 
     public GameObject gamepause;
 
@@ -19,6 +20,10 @@ public class player : MonoBehaviour
     [SerializeField]
     public static int numberofbullet;
 
+    [SerializeField]
+    private float speed;
+    private float angle;
+    private float previousangle;
     private float shoottime = 0;
     private float pausetime = 0;
     private float pauseinterval=3;
@@ -39,28 +44,18 @@ public class player : MonoBehaviour
         {
             shoot();
             shoottime = 0;
-
         }
 
         if (Input.GetMouseButtonDown(0))
         {
             ismovemnet = true;
-            resume();
         }
         else if (Input.GetMouseButtonUp(0))
         {
-            ismovemnet = false;        
-            
+            ismovemnet = false;
+            previousangle = angle;
         }
-        if(ismovemnet==false)
-        {
-            pausetime += Time.deltaTime;
-            if (pausetime > pauseinterval)
-            {
-                pause();
-                pausetime = 0;
-            }
-        }
+
     }
 
     public void pause()
@@ -76,17 +71,29 @@ public class player : MonoBehaviour
         // Update is called once per frame
     void FixedUpdate()
      {
-        if (ismovemnet == true)
-        {
+
+
             Vector3 targetDir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-            float angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Lerp(transform.rotation,Quaternion.AngleAxis(angle - 90, Vector3.forward),.3f);
+            angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
+        float div = Mathf.Abs(angle - previousangle);
+        Debug.Log(div);
+        if ( div> 70)
+          {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AngleAxis(angle - 90, Vector3.forward), .2f);
+          }
+            else
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AngleAxis(angle - 90, Vector3.forward), 1f);
 
         }
+        playerprefab[0].transform.Rotate(Vector3.forward * angle / 20);
+
+
+
     }
     public void shoot()
     {
-        if (ismovemnet == true)
+        if(ismovemnet)
         {
             for (int i = 0; i < numberofbullet; i++)
             {
@@ -94,7 +101,9 @@ public class player : MonoBehaviour
                 go.transform.position = new Vector3(go.transform.position.x, go.transform.position.y, 0);
                 go.GetComponent<Rigidbody>().velocity = transform.up * 10;
             }
+
         }
+
 
     }
 }
