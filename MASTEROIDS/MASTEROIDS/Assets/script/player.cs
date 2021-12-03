@@ -13,8 +13,7 @@ public class player : MonoBehaviour
 
     public GameObject[] bulletprefab;
     public GameObject[] playerprefab;
-
-    public GameObject gamepause;
+    public Camera Camera;
 
     public Rigidbody rb;
     [SerializeField]
@@ -22,6 +21,8 @@ public class player : MonoBehaviour
 
     [SerializeField]
     private float speed;
+    [SerializeField]
+    private float cameraspeed;
     private float angle;
     private float previousangle;
     private float shoottime = 0;
@@ -58,38 +59,28 @@ public class player : MonoBehaviour
 
     }
 
-    public void pause()
-    {
-        Time.timeScale = 0;
-        gamepause.SetActive(true);
-    }
-    public void resume()
-    {
-        Time.timeScale = 1;
-        gamepause.SetActive(false);
-    }
+
         // Update is called once per frame
     void FixedUpdate()
      {
 
-
+        if (ismovemnet == true)
+        {
             Vector3 targetDir = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
             angle = Mathf.Atan2(targetDir.y, targetDir.x) * Mathf.Rad2Deg;
-        float div = Mathf.Abs(angle - previousangle);
-        Debug.Log(div);
-        if ( div> 70)
-          {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AngleAxis(angle - 90, Vector3.forward), .2f);
-          }
+            float div = Mathf.Abs(angle - previousangle);
+            Debug.Log(div);
+            if (div > 70)
+            {
+                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AngleAxis(angle - 90, Vector3.forward), .2f);
+            }
             else
-        {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AngleAxis(angle - 90, Vector3.forward), 1f);
-
+            {
+                transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AngleAxis(angle - 90, Vector3.forward), 1f);
+            }
+            playerprefab[0].transform.Rotate(Vector3.forward * angle / 20);
+            Camera.transform.rotation = Quaternion.Lerp(Camera.transform.rotation, Quaternion.AngleAxis(angle - 90, Vector3.forward), cameraspeed);
         }
-        playerprefab[0].transform.Rotate(Vector3.forward * angle / 20);
-
-
-
     }
     public void shoot()
     {

@@ -59,7 +59,7 @@ public class score : MonoBehaviour
     {
         if (collision.gameObject.tag == "bullet")
         {
-            FindObjectOfType<astroidmanager>().cameraanim();
+            FindObjectOfType<astroidmanager>().cameraanim_on();
             collided = true;
             for (int i = 0; i < bulleteffect.Length; i++)
             {

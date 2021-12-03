@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class gamemanager : MonoBehaviour
 {
+    public GameObject gamepause;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,16 @@ public class gamemanager : MonoBehaviour
     void Update()
     {
         
+    }
+    public void pause()
+    {
+        Time.timeScale = 0;
+        gamepause.SetActive(true);
+    }
+    public void resume()
+    {
+        Time.timeScale = 1;
+        gamepause.SetActive(false);
     }
     public void retry()
     {

@@ -6,11 +6,32 @@ using UnityEngine;
 public class camerborder : MonoBehaviour
 {
     public Camera camera;
+    public GameObject player;
+    [SerializeField]
+    private Vector3 offset;
+    [SerializeField]
+    public float speed;
 
-    // Start is called before the first frame update
+    // Use this for initialization
     void Start()
     {
+        offset = transform.position - player.transform.position;
         GenerateCollidersAcrossScreen();
+    }
+
+    // Update is called once per frame
+    void LateUpdate()
+    {
+      //  Quaternion rotation = Quaternion.Euler(0,0,player.transform.rotation.z* speed);
+        //transform.rotation = rotation;
+
+    }
+
+    // Start is called before the first frame update
+
+    public void cameraoff()
+    {
+        FindObjectOfType<astroidmanager>().cameraanim_off();
     }
     // Update is called once per frame
     void GenerateCollidersAcrossScreen()

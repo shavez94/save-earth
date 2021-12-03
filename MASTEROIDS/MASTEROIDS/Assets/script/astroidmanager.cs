@@ -126,11 +126,6 @@ public class astroidmanager : MonoBehaviour
         
     }
 
-    public void cameraanim()
-    {
-        camerashake.SetTrigger("bullet");
-
-    }
 
     public void missile()
     {
@@ -190,6 +185,15 @@ public class astroidmanager : MonoBehaviour
     public void astroid_destroy(GameObject gameObject)
     {
         astroid.Remove(gameObject);
+    }
+
+    public void cameraanim_on()
+    {
+        camerashake.SetBool("bullet",true);
+    }
+    public void cameraanim_off()
+    {
+        camerashake.SetBool("bullet", false);
     }
 
 
