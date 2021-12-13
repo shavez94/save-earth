@@ -102,7 +102,7 @@ TextureImporter:
       213: 3771794143540122796
     second: Plants_13
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -122,6 +122,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -131,11 +133,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 2
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -153,9 +155,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -521,6 +527,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Plants_12: 21300024
+      Plants_1: 21300002
+      Plants_3: 21300006
+      Plants_9: 21300018
+      Plants_10: -5981771769347585550
+      Plants_7: 6612842843856697754
+      Plants_13: 3771794143540122796
+      Plants_8: 21300014
+      Plants_4: 21300010
+      Plants_14: 21300026
+      Plants_0: 21300000
+      Plants_2: 21300004
+      Plants_11: 21300020
+      Plants_6: 21300008
+      Plants_5: 3442116038242085032
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
