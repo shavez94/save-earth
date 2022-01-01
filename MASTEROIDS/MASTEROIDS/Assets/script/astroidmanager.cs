@@ -34,7 +34,6 @@ public class astroidmanager : MonoBehaviour
     [SerializeField]
     private float coins;
 
-
     public List<GameObject> astroid = new List<GameObject>();
 
     private int missilecount;

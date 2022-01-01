@@ -30,12 +30,12 @@ public class wavemanager : MonoBehaviour
     private float wavecountdown = 0;
     private float seachCountdown=1f;
 
-    private string wavename="Wave 1";
+    private string wavename;
 
     public GameObject wave_panel;
     public GameObject[] game;
     public GameObject levelcomplete;
-
+    public GameObject indicator;
     public TextMeshProUGUI wavepanel_text;
     public TextMeshProUGUI wavename_toptext;
 
@@ -47,6 +47,7 @@ public class wavemanager : MonoBehaviour
     private float maxastroid_speed;
     [SerializeField]
     private float minastroid_speed;
+    public float movementSpeed;
 
     public spawnrate state = spawnrate.COUNTING;
 
@@ -67,8 +68,7 @@ public class wavemanager : MonoBehaviour
         progressslider.value = astroid_killed;
         if(state==spawnrate.WAITING)
         {
-            if(state==spawnrate.WAITING)
-            {
+ 
                 if(!EnemyIsAlive())
                 {
                     WaveCompleted();
@@ -78,7 +78,7 @@ public class wavemanager : MonoBehaviour
                 {
                     return;
                 }
-            }
+            
         }
         if(wavecountdown<=0)
         {
@@ -174,6 +174,11 @@ public class wavemanager : MonoBehaviour
         go.transform.localScale = new Vector3(UnityEngine.Random.Range(minastroid_size, maxastroid_size), UnityEngine.Random.Range(minastroid_size, maxastroid_size), UnityEngine.Random.Range(minastroid_size, maxastroid_size));
         PlayerPrefs.SetFloat("currentspeed", UnityEngine.Random.Range(minastroid_speed, maxastroid_speed));
         Debug.Log("spawning enemy: " + _enmy.name);
+        GameObject ind = Instantiate(indicator, Vector3.zero, Quaternion.identity);
+       // Vector3 dis = _enmy.transform.position - ind.transform.position;
+        ind.transform.position += transform.forward * Time.deltaTime * movementSpeed;
+        ind.transform.LookAt(_enmy.transform);
+
     }
 
     private void Y_value()
